@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="78dp"
+    android:background="@drawable/clickable_view_group_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingHorizontal="12dp">
+
+    <ImageView
+        android:layout_marginStart="12dp"
+        android:id="@+id/im_avatar_item_account"
+        android:layout_width="@dimen/mask48"
+        android:layout_height="@dimen/mask48"
+        android:contentDescription="@string/im_account_avatar_content_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_item_account_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:ellipsize="marquee"
+        android:gravity="start"
+        android:layout_marginTop="16dp"
+        android:singleLine="true"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/tv_item_account_jid"
+        app:layout_constraintEnd_toStartOf="@id/switch_account_enable"
+        app:layout_constraintStart_toEndOf="@id/im_avatar_item_account"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_item_account_jid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:ellipsize="marquee"
+        android:gravity="start"
+        android:singleLine="true"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@id/switch_account_enable"
+        app:layout_constraintStart_toEndOf="@id/im_avatar_item_account"
+        app:layout_constraintTop_toBottomOf="@id/tv_item_account_name" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_marginEnd="12dp"
+        android:id="@+id/switch_account_enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,394 @@
+<resources>
+    <string name="app_name">Xabber NG</string>
+
+    <!-- General -->
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="dialog_button_delete">Delete</string>
+
+    <!-- Permissions -->
+    <string name="dialog_title_permission_denied">Permission denied</string>
+    <string name="offer_to_open_settings">Would you like to open app settings if change your mind?</string>
+    <string name="dialog_button_open">Open</string>
+
+    <!-- Onboarding -->
+
+    <!-- Start -->
+    <string name="xabber_image_content_description">Xabber application icon</string>
+    <string name="start_title_label">Xabber</string>
+    <string name="start_subtitle_label">World\'s best XMPP experience</string>
+    <string name="start_signin_button_label">Connect existing account</string>
+    <string name="start_signup_button_label">Create new account</string>
+    <string name="start_comment_label">New accounts are created for free on xabber.org domain.You can use Xabber to connect to any compatible XMPP account on any server.</string>
+
+    <!-- Signin -->
+    <string name="signin_toolbar_title_1">Sign In</string>
+    <string name="signin_toolbar_title_2">Server features</string>
+    <string name="signin_title_label_1">Hi! Connect to your existing XMPP ID</string>
+    <string name="signin_title_label_template_2">Hang on there a second! Checking if dev.xabber.org supports all necessary features.</string>
+    <string name="signin_edit_text_login_label">username@xabber.com</string>
+    <string name="signin_edit_text_password_label">password</string>
+    <string name="signin_subtitle_label_1_start">If you don\'t have an account yet, </string>
+    <string name="signin_subtitle_label_1_end"> to sign up for an account on xabber.org server.</string>
+    <string name="press_here">press here</string>
+    <string name="signin_subtitle_label_2">Shiny! Everything\'s fine! Press the button below and start messaging r-r-right away!!</string>
+    <string name="signin_rock_button_label">Let\'s rock!</string>
+    <string name="signin_subtitle_error_message">Invalid username or password</string>
+    <string name="signin_connect_button_label_1">Connect</string>
+    <string name="signin_connect_button_label_2">Connecting…</string>
+
+    <string name="feature_name_1">Communicating with server</string>
+    <string name="feature_name_2">Checking credentials</string>
+    <string name="feature_name_3">Requesting sever capabilities</string>
+    <string name="feature_name_4">Message archive</string>
+    <string name="feature_name_5">Synchronization</string>
+    <string name="feature_name_6">Push notifications</string>
+    <string name="feature_name_7">Message editing</string>
+    <string name="feature_name_8">Device management</string>
+    <string name="feature_name_9">Publish-subscribe</string>
+    <string name="feature_name_10">File upload</string>
+
+    <!-- Signup -->
+    <string name="signup_next_button">Next</string>
+    <string name="signup_nickname_toolbar_title">Sign Up</string>
+    <string name="signup_nickname_title_label">Let’s get Started!\nWhat’s your name?</string>
+    <string name="signup_nickname_edit_text_label">Nickname</string>
+    <string name="signup_nickname_subtitle">Use the name or a nickname you are most comfortable with. Your name will be visible to other users of the XMPP network.</string>
+    <string name="signup_username_toolbar_title">Username</string>
+    <string name="signup_username_title">Great! Now, choose a username\n for people to find you on Xabber.</string>
+    <string name="signup_username_edit_text_label">username</string>
+    <string name="signup_username_subtitle">The account will be created on xabber.org server. It can be used to communicate with users of other servers.</string>
+    <string name="signup_username_error_subtitle">Sorry! That username isn’t available.</string>
+    <string name="signup_username_success_subtitle">✓ Nice! That username is available.</string>
+    <string name="signup_password_toolbar_title">Password</string>
+    <string name="signup_password_title_label">Shiny! Time to pick a secure password for your account.</string>
+    <string name="signup_password_edit_text_label">password</string>
+    <string name="signup_password_subtitle">Using a strong password is vital for your safety. We recommend you use unique passwords and password manager apps to keep track of them.</string>
+    <string name="signup_avatar_toolbar_title">Profile Image</string>
+    <string name="signup__avatar_title_label">Nice! Now set up a profile image best representing your identity.</string>
+
+    <!-- AvatarBottomSheet -->
+    <string name="avatar_bottom_sheet_emoji_label">Use Emoji</string>
+    <string name="avatar_bottom_sheet_selfie_label">Take Selfie</string>
+    <string name="avatar_bottom_sheet_choose_image_label">Choose Image</string>
+
+    <!-- EmojiAvatarBottomSheet -->
+    <string name="default_emoji_avatar">👽</string>
+    <string name="smileysAndPeople">😀</string>
+    <string name="animalsAndNature">🐶</string>
+    <string name="foodAndDrink">🍏</string>
+    <string name="activity">⚽️</string>
+    <string name="travelAndPlaces">🚗</string>
+    <string name="objects">⌚️</string>
+    <string name="symbols">❤ </string>
+    <string name="flags">🏳</string>
+
+
+    <!-- Application -->
+
+    <!-- BottomNavigationView -->
+    <string name="menu_item_chats">Xabber</string>
+    <string name="menu_item_call">Calls</string>
+    <string name="menu_item_contacts">Contacts</string>
+    <string name="menu_item_discover">Discover</string>
+    <string name="menu_item_settings">Settings</string>
+
+    <!-- CHAT LIST -->
+    <string name="application_title">Xabber</string>
+    <string name="no_internet_title">Connecting…</string>
+    <string name="image_plus_content_description">Add chat</string>
+    <string name="avatar_account_content_description">Account avatar</string>
+    <string name="unread_chats">Unread</string>
+    <string name="archived_chat">Archive</string>
+    <string name="snackbar_title_to_archive">Moved to archive</string>
+    <string name="snackbar_title_from_archive">Moved from archive</string>
+    <string name="snackbar_button_cancel">Cancel</string>
+    <string name="chat_list_is_empty_text">Your chats will appear here</string>
+    <string name="chat_list_is_empty_button">Let\'s go!</string>
+    <string name="unread_list_is_empty_text">No unread chats</string>
+    <string name="archived_list_is_empty_text">No archived chats</string>
+    <string name="status_content_description">Status</string>
+    <string name="message_status_content_description">message status</string>
+    <string name="pinned_chat_description">Pinned chat</string>
+    <string name ="pull_to_show_archive">Pull to show archive</string>
+    <string name="release_to_show_archive">Release to show archive</string>
+    <string name="open_archive">Open the archive</string>
+    <string name="drafted">Drafted: </string>
+
+    <!-- Chat Context Menu -->
+    <string name="menu_item_enable_notifications">Enable notifications</string>
+
+    <!-- Add Chat/Group -->
+    <string name="add_contact">Add contact</string>
+    <string name="create_group">Create group</string>
+    <string name="create_group_incognito">Create group incognito</string>
+    <string name="button_add_contact">Add contact</string>
+    <string name="hint_user_name">User name</string>
+    <string name="hint_alias_not_necessary">Alias (not necessary)</string>
+
+    <!-- Special Notifications -->
+    <string name="use_special_settings_title">Use special settings</string>
+    <string name="special_settings_description">Special notification settings have higher priority over the other notification settings</string>
+    <string name="messages_preview_title">Messages preview</string>
+    <string name="messages_preview_description">Display text messages</string>
+    <string name="notification_sound_title">Notifications sound</string>
+    <string name="notification_sound_state">Default ($s)</string>
+    <string name="vibration_title">Vibration</string>
+    <string name="vibration_state_default">Default</string>
+    <string name="vibration_state_disabled">Disabled</string>
+    <string name="vibration_state_short">Short vibration</string>
+    <string name="vibration_state_long">Long vibration</string>
+    <string name="vibration_state_mute_mode">Only in mute mode</string>
+
+    <!-- CALLS -->
+    <string name="calls_toolbar_title">Calls</string>
+    <string name="adt">\tCalls are coming to Xabber for Android! Not this release, but they are on our roadmap.\n
+    \n\tReally impatient users can test working VoIP right now in <a href="https://www.xabber.com/web/">Web</a> and <a href="https://www.xabber.com/ios/">IOS</a> version of Xabber.\n\n\tIf you want to keep Xabber strong and speed up Xabber development, take part in our <a href="https://www.patreon.com/xabber">crowdfunding campaign on Patreon!</a></string>
+
+
+    <!-- CONTACTS -->
+
+    <string name="contacts_toolbar_title">Contacts</string>
+
+    <!-- Edit Contacts Fragment -->
+    <string name="edit_contact_toolbar_title">Edit</string>
+    <string name="image_changes_save_description">Save changes</string>
+    <string name="description_image_contact_photo">Contact photo</string>
+    <string name="receiving_presence_updates">Receiving presence updates</string>
+    <string name="sending_presence_updates">Sending presence updates</string>
+    <string name="information_with_contact_connecting">You and this contact are sharing presence information with each other.</string>
+    <string name="delete_contact">Delete contact</string>
+
+
+    <!-- CHAT -->
+    <string name="record_cancel">slide to cancel</string>
+    <string name="menu_item_copy_message">   Copy</string>
+    <string name="menu_item_pin_message">   Pin</string>
+    <string name="menu_item_forward_message">   Forward</string>
+    <string name="menu_item_reply_message">   Reply</string>
+    <string name="menu_item_edit_message">   Edit</string>
+    <string name="menu_item_delete_message">   Delete</string>
+    <string name="menu_item_call_out">Call out</string>
+    <string name="menu_item_disable_notifications">Disable notifications</string>
+    <string name="menu_item_clear_message_history">Clear message history</string>
+    <string name="toolbar_menu_item_delete_chat">Delete chat</string>
+    <string name="dialog_clear_history_chat_title">Clear history</string>
+    <string name="dialog_message_clear_history">Are you sure you want to clear your chat history with</string>
+    <string name="chat_dialog_sub_message">\n\nThis action can not be undone.</string>
+    <string name="dialog_chat_positive_button">Clear</string>
+    <string name="dialog_chat_negative_button">Cancel</string>
+    <string name="clear_group_chat_history_dialog_message">All message history in this chat will be cleared. This action can not be undone.</string>
+    <string name="snack_bar_title_copy_text">"Copied to clipboard"</string>
+    <string name="deleting_message_dialog_title">"Delete message</string>
+    <string name="deleting_message_dialog_subtitle">Are you sure you want to delete this message?</string>
+    <string name="deleting_message_dialog_checkbox_text">Also delete for </string>
+
+    <!-- DISCOVER -->
+    <string name="discover_toolbar_title">Discover</string>
+
+    <!-- SETTINGS -->
+    <string name="settings_toolbar_title">Settings</string>
+    <string name="unread_messages">Unread messages</string>
+    <string name="menu_item_reset_status">Reset status</string>
+    <string name="menu_item_add_contact">Add contact</string>
+    <string name="menu_item_display_contacts_offline">Display contacts offline</string>
+    <string name="image_description_unpin_message">unpin message</string>
+    <string name="im_description_pin_message">pin message</string>
+    <string name="im_description_downward">downward</string>
+    <string name="image_view_description_profile_image">Profile image</string>
+    <string name="image_view_content_description_photo">Photo</string>
+
+
+
+
+
+
+
+
+
+    <string name="account_color">Account color</string>
+    <string name="account_color_name_green">green</string>
+    <string name="account_color_name_orange">orange</string>
+    <string name="account_color_name_red">red</string>
+    <string name="account_color_name_blue">blue</string>
+    <string name="account_color_name_indigo">indigo</string>
+    <string name="account_color_name_teal">teal</string>
+    <string name="account_color_name_blue_grey">blue-grey</string>
+    <string name="account_color_name_cyan">cyan</string>
+    <string name="account_color_name_deep_purple">deep-purple</string>
+    <string name="account_color_name_lime">lime</string>
+    <string name="account_color_name_pink">pink</string>
+    <string name="account_color_name_purple">purple</string>
+    <string name="account_color_name_light_blue">light-blue</string>
+    <string name="account_color_name_light_green">light-green</string>
+    <string name="account_color_name_amber">amber</string>
+    <string name="account_color_name_deep_orange">deep-orange</string>
+    <string name="account_color_name_brown">brown</string>
+    <string name="im_avatar_content_description">choose photo for your avatar</string>
+    <string name="im_account_avatar_content_description">account avatar</string>
+    <string name="accounts">Accounts</string>
+    <string name="menu_item_title_add_account">Add account</string>
+    <string name="menu_item_title_reorder">Reorder</string>
+    <string name="settings">Settings</string>
+    <string name="image_interfase_settings_description">Interfase settings</string>
+    <string name="title_interface_settings">Interface</string>
+    <string name="image_notifications_settings_description">Notifications settings</string>
+    <string name="title_notifications_settings">Notifications</string>
+    <string name="image_data_and_storage_settings_description">Data and storage settings</string>
+    <string name="title_data_and_storage_settings">Data and storage</string>
+    <string name="image_privacy_settings_description">Privacy settings</string>
+    <string name="title_privacy_settings">Privacy</string>
+    <string name="image_connection_settings_description">Connection settings</string>
+    <string name="title_connection_settings">Connection</string>
+    <string name="image_debug_settings_description">Debug settings</string>
+    <string name="title_debug_settings">Debug</string>
+    <string name="image_language_settings_description">Language settings</string>
+    <string name="title_language_settings">Language</string>
+    <string name="tv_swap_account">To syncronize accounts order between devices you need to enable Syncronize all option in Xabber Account settings</string>
+    <string name="menu_item_approve">Approve</string>
+    <string name="im_anchor_description">Click and drag to move</string>
+    <string name="edit_smile_avatar_image_description">Edit smile avatar</string>
+    <string name="primary_account_color_image_description">Primary account color</string>
+    <string name="archive_button_label">Archive</string>
+    <string name="xabber_logo_image_description">Xabber</string>
+    <string name="avatar_toolbar_im_description">Avatar</string>
+    <string name="chat_status_image_description">Chat status 16</string>
+    <string name="chat_status_14_image_description">Chat_status_14</string>
+    <string name="chat_image_description">Chat avatar</string>
+    <string name="muted_chat_image_description">Muted</string>
+    <string name="menu_item_share_qr_code">Share QR code</string>
+    <string name="menu_item_edit_contact">Edit</string>
+    <string name="menu_item_delete_contact">Delete contact</string>
+    <string name="menu_item_block_contact">Block contact</string>
+    <string name="menu_item_choose_account_color">Choose account color</string>
+    <string name="menu_item_generate_qr_code">Generate QR code</string>
+    <string name="menu_item_add_account">Add account</string>
+    <string name="menu_item_circle">Circle</string>
+    <string name="menu_item_hexagon">Hexagon</string>
+    <string name="menu_item_octagon">Octagon</string>
+    <string name="menu_item_pentagon">Pentagon</string>
+    <string name="menu_item_rounded">Rounded</string>
+    <string name="menu_item_squircle">Squircle</string>
+    <string name="menu_item_star">Star</string>
+    <string name="menu_item_unpin">Unpin</string>
+    <string name="menu_item_delete_chat">Delete chat</string>
+    <string name="menu_item_turn_of_notifications">Turn of notifications</string>
+    <string name="menu_item_customise_notifications">Customise notifications</string>
+    <string name="menu_item_pin_chat">Pin chat</string>
+    <string name="qr_code_image_description">QR code</string>
+    <string name="menu_item_contact_qr_code">Contact qr code</string>
+    <string name="menu_item_edit_contact_account">Edit</string>
+    <string name="menu_item_send_contact">Send</string>
+    <string name="menu_item_delete_contact_account">Delete contact</string>
+    <string name="avatar_background_image_description">avatar background</string>
+    <string name="account_photo_image_description">Account photo</string>
+    <string name="contact_chat_image_description">Chat</string>
+    <string name="contact_account_chat">Chat</string>
+    <string name="contact_avatar_call_image_description">Call</string>
+    <string name="contact_avatar_call">Call</string>
+    <string name="contact_avatar_notifications_image_description">Notifications</string>
+    <string name="contact_avatar_notifications">Notifications</string>
+    <string name="block_contact_image_description">Block contact</string>
+    <string name="contact_avatar_block">Block contact</string>
+    <string name="menu_item_chat_list_add">Add</string>
+    <string name="menu_item_choose_from_gallery">Choose image</string>
+    <string name="menu_item_take_a_photo">Take a photo</string>
+    <string name="menu_item_delete_avatar">Delete avatar</string>
+    <string name="encryption_settings_toolbar_title">Encryption and keys</string>
+
+    <plurals name="estimated_in_seconds">
+        <item quantity="one">in %1$d second</item>
+        <item quantity="other">in %1d$ seconds</item>
+    </plurals>
+    <plurals name="estimated_in_minutes">
+        <item quantity="one">in %1$d minute</item>
+        <item quantity="other">in %1$d minutes</item>
+    </plurals>
+    <plurals name="estimated_in_hours">
+        <item quantity="one">in %1$d hour</item>
+        <item quantity="other">in %1$d hours</item>
+    </plurals>
+    <plurals name="estimated_in_days">
+        <item quantity="one">in %1$d day</item>
+        <item quantity="other">in %1$d days</item>
+    </plurals>
+    <string name="chat_screen__dialog_title__pick_location">Pick location</string>
+    <string name="use_external_dialog_title">Mapping service disabled</string>
+    <string name="use_external_dialog_body">Location picker requires external mapping services, which are currently disabled.</string>
+    <string name="enable_geolocation_dialog_body">Location tracking disabled</string>
+    <string name="use_external_dialog_enable_button">Enable</string>
+    <string name="im_my_geolocation_content_description">My geolocation</string>
+    <string name="im_button_plus_content_description">Zoom in</string>
+    <string name="im_button_minus_content_description">Zoom out</string>
+    <string name="menu_item_clear_history">Clear history</string>
+    <string name="mark_all_messages_as_read">Mark all messages as read</string>
+    <string name="no_archived_chats">No archived chats</string>
+    <string name="selected_message_toolbar_close">close</string>
+    <string name="avatar_content_description">Avatar</string>
+    <string name="content_description_notifications_is_disabled">Notifications is disabled</string>
+    <string name="content_description_close">Close</string>
+    <string name="content_description_send">Send</string>
+    <string name="content_description_emoji">Emoji</string>
+    <string name="content_description_attach">Attach</string>
+    <string name="content_description_audio_record">Audio record</string>
+    <string name="content_description_lock">Lock</string>
+    <string name="content_description_stop">Stop</string>
+    <string name="user_domain_name">user@domain.name</string>
+    <string name="status">status</string>
+    <string name="back">back</string>
+    <plurals name="delete_message_title">
+        <item quantity="one">Delete message</item>
+        <item quantity="other">Delete %s messages</item>
+    </plurals>
+    <plurals name="delete_message_question">
+        <item quantity="one">Are you sure you want to delete this message?</item>
+        <item quantity="other">Are you sure you want to delete these messages?</item>
+    </plurals>
+    <string name="save_btn_label">Save</string>
+    <string name="chat_input_hint">Message</string>
+    <string name="undefined_file">Undefined file</string>
+    <string name="create_group_button_label">Create group</string>
+
+    <string name="given_name">Given name</string>
+    <string name="family_name">Family name</string>
+
+
+    <!-- DIALOGS -->
+
+    <!-- Dialog Deleting Chat -->
+    <string name="dialog_delete_chat_title">Deleting chat</string>
+    <string name="dialog_delete_chat_description">Are you sure you want to delete chat with</string>
+    <string name="dialog_delete_chat_sub_message">\n\nIt will be impossible to undo this action.</string>
+    <string name="special_notifications_title">Special notifications</string>
+    <string name="appearance_settings">Appearance settings</string>
+    <string name="private_chats_groups_channels">Private chats, groups, channels</string>
+    <string name="media_loading_typing_notifications_etc">Media loading, typing notifications, etc</string>
+    <string name="battery_mode_wifi_sleep">Battery mode, WIFI, Sleep</string>
+    <string name="debugging_options_logs">Debugging options, logs</string>
+    <string name="english_default">English (Default)</string>
+    <string name="profile">Profile</string>
+    <string name="status_settings">Status</string>
+    <string name="reorder_accounts">Reorder accounts</string>
+    <string name="attach_files_warning">Too many files at once!</string>
+    <string name="available">available</string>
+    <string name="storage_settings">Storage settings</string>
+    <string name="status_avatar_password_etc">Status, avatar, password, etc</string>
+    <string name="cloud_storage">Cloud storage</string>
+    <string name="used_112_mb_out_of_2_gb">Used 112 MB out of 2 GB</string>
+    <string name="encryption_and_keys">Encryption and keys</string>
+    <string name="encryption_enabled">Encryption enabled</string>
+    <string name="devices">Devices</string>
+    <string name="_1_connected_device">1 connected device</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="password">Password</string>
+    <string name="change_password">Change password</string>
+    <string name="account_color_profile">Account color</string>
+    <string name="blocked_contacts">Blocked contacts</string>
+    <string name="_4_blocked_contacts">4 blocked contacts</string>
+    <string name="circles">Circles</string>
+    <string name="_2_circles">2 circles</string>
+    <string name="server_information">Server information</string>
+    <string name="xmpp_server">Xmpp server</string>
+    <string name="delete_account">Delete account</string>
+    <string name="slider_description">slider</string>
+
+</resources>

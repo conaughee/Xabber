@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/choose_image"
+        android:title="@string/menu_item_choose_from_gallery" />
+
+    <item
+        android:id="@+id/delete_avatar"
+        android:title="@string/menu_item_delete_avatar" />
+</menu>

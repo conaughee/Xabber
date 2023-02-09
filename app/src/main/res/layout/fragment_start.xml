@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_xabber"
+        android:layout_width="@dimen/image_xabber_size"
+        android:layout_height="@dimen/image_xabber_size"
+        android:layout_marginHorizontal="@dimen/margin_horizontal_onboarding"
+        android:layout_marginBottom="312dp"
+        android:contentDescription="@string/xabber_image_content_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_xabber_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_start_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_onboarding_standard"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.21"
+        android:text="@string/start_title_label"
+        android:textColor="@color/grey_900"
+        android:textSize="@dimen/extra_large_font_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_xabber" />
+
+    <TextView
+        android:id="@+id/tv_start_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.33"
+        android:text="@string/start_subtitle_label"
+        android:textColor="@color/gray_text_600"
+        android:textSize="@dimen/onboarding_medium_font_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_start_title" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_signin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_horizontal_onboarding"
+        android:layout_marginBottom="@dimen/margin_onboarding_standard"
+        android:background="@drawable/button_background"
+        android:stateListAnimator="@animator/shadow"
+        android:text="@string/start_signin_button_label"
+        android:textAllCaps="false"
+        android:textColor="@color/blue_500"
+        android:textSize="@dimen/onboarding_button_font_size"
+        android:letterSpacing="0"
+        android:theme="@style/StartButton"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/btn_signup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_signup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_horizontal_onboarding"
+        android:letterSpacing="0"
+        android:layout_marginBottom="@dimen/margin_onboarding_standard"
+        android:background="@drawable/button_background"
+        android:stateListAnimator="@animator/shadow"
+        android:text="@string/start_signup_button_label"
+        android:textAllCaps="false"
+        android:textColor="@color/blue_500"
+        android:textSize="@dimen/onboarding_button_font_size"
+        android:theme="@style/StartButton"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/tv_start_comment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="@dimen/progress_bar_size"
+        android:layout_height="@dimen/progress_bar_size"
+        android:layout_margin="24dp"
+        android:indeterminateTint="@color/grey_400"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/tv_start_comment"
+        app:layout_constraintEnd_toEndOf="@+id/tv_start_comment"
+        app:layout_constraintStart_toStartOf="@+id/tv_start_comment" />
+
+    <TextView
+        android:id="@+id/tv_start_comment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_horizontal_onboarding"
+        android:layout_marginBottom="@dimen/margin_onboarding_extra_large"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.1"
+        android:text="@string/start_comment_label"
+        android:textColor="@color/grey_text_3"
+        android:textSize="@dimen/onboarding_small_font_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

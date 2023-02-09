@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pin_chat"
+        android:title="@string/menu_item_pin_chat" />
+
+    <item
+        android:id="@+id/unpin"
+        android:title="@string/menu_item_unpin" />
+
+    <item
+        android:id="@+id/clear_history"
+        android:title="@string/menu_item_clear_history"/>
+
+    <item
+        android:id="@+id/delete"
+        android:title="@string/menu_item_delete_chat" />
+
+    <item
+        android:id="@+id/turn_of_notifications"
+        android:title="@string/menu_item_turn_of_notifications" />
+
+    <item
+        android:id="@+id/enable_notifications"
+        android:title="@string/menu_item_enable_notifications" />
+
+    <item
+        android:id="@+id/customise_notifications"
+        android:title="@string/menu_item_customise_notifications" />
+</menu>
